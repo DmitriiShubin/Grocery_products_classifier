@@ -42,6 +42,7 @@ In order to build a classifier, based on the Word2Vec model, it needs to apply a
 
 # How to launch the solution:
 
+0. upload waighs of the model (https://www.dropbox.com/s/buix0deqlks4312/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin.gz?dl=1), unzip waights to ./app/models/lexvec/weights
 1. install docker, for ubuntu: sudo apt install docker.io
 2. open project folder (the folder that includes a Dockerfile)
 3. run: sudo docker build --name grocery .
